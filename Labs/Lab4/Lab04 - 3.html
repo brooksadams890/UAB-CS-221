@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexander "Brooks" Adams</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: white;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            background: linear-gradient(to right, #16222A, #3A6073);
+        }
+
+        nav {
+            background: linear-gradient(to right, #1f4037, #99f2c8);
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+        }
+
+        nav ul li a img {
+            width: 24px;
+            height: 24px;
+            margin-right: 8px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+        }
+
+        h2 {
+            border-bottom: 2px solid white;
+            padding-bottom: 5px;
+        }
+
+        .info-box {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+
+        .project {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+
+        a {
+            color: #FFD700;
+        }
+
+        footer {
+            text-align: center;
+            padding: 5px;
+            background: linear-gradient(to right, #16222A, #3A6073);
+            color: white;
+            font-style: italic;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Alexander "Brooks" Adams</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about"><img src="icons/about-icon.png" alt="About Me">About Me</a></li>
+            <li><a href="#projects"><img src="icons/projects-icon.png" alt="Projects">Projects</a></li>
+            <li><a href="#contact"><img src="icons/contact-icon.png" alt="Contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="info-box">
+            <h3>Skills:</h3>
+            <p>Investing, C#, ASP.NET, Java, Python, HTML, CSS, JavaScript</p>
+        </div>
+        <div class="info-box">
+            <h3>Hobbies:</h3>
+            <p>Coding, Investing, Traveling, Video Games</p>
+        </div>
+        <div class="info-box">
+            <h3>Interests:</h3>
+            <p>Backend Development, Web Development, Business Development, Animals</p>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Portfolio Web App</h3>
+            <p>This web app showcases my portfolio. Made with ASP.NET.</p>
+        </div>
+        <div class="project">
+            <h3>Android App</h3>
+            <p>This Android app was made with Java and displays a functional Android app. <a href="#">Link to Github</a></p>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p><a href="#">LinkedIn</a> | <a href="#">Email</a> | <a href="#">GitHub</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; Alexander Brooks Adams 2025. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
