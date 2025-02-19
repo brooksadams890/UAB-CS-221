@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobs - JavaJam Coffee Bar</title>
+    <link rel="stylesheet" href="javajam.css">
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <h1>JavaJam Coffee Bar</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;<a href="menu.html">Menu</a>&nbsp;&nbsp;&nbsp;<a href="music.html">Music</a>&nbsp;&nbsp;&nbsp;<a href="jobs.html">Jobs</a>
+    </nav>
+    <main>
+        <h2>Work at JavaJam</h2>
+
+        <!--AI wrote the job type, job description, job duties, and hourly wages for me-->
+        <section>
+            <h3>Barista</h3>
+            <p>As a barista, you will be responsible for preparing beverages, interacting with customers, and maintaining a clean work environment.</p>
+            <ul>
+                <li>Prepare coffee and tea drinks</li>
+                <li>Assist customers with their orders</li>
+                <li>Clean workstations</li>
+                <li>Restock supplies</li>
+            </ul>
+            <p>Hourly wage: $12/hour</p>
+        </section>
+
+        <section>
+            <h3>Server</h3>
+            <p>As a server, you will take orders, serve food and drinks, and ensure customer satisfaction.</p>
+            <ul>
+                <li>Take customer orders</li>
+                <li>Deliver food and beverages</li>
+                <li>Ensure customer satisfaction</li>
+                <li>Assist with cleaning and restocking</li>
+            </ul>
+            <p>Hourly wage: $11/hour</p>
+        </section>
+        
+        <h3>Apply Now</h3>
+        <form action="" method="POST">
+            <label for="position">Position Applying For</label>
+            <select id="position" name="position" required>
+                <option value="Barista">Barista</option>
+                <option value="Server">Server</option>
+            </select><br><br>
+
+            <label for="FullName">Full Name:</label>
+            <input type="text" id="FullName" name="FullName" required><br><br>
+            
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+
+            <label for="about">About You:</label><br>
+            <textarea id="about" name="about" rows="4" required></textarea><br><br>
+
+            <label for="resume">Resume File:</label>
+            <input type="file" id="resume" name="resume" required><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        Copyright © 2023 JavaJam Coffee Bar<br>
+        <a href="mailto:brooksadams@uab.edu">brooksadams@uab.edu</a>
+    </footer>
+</div>
+</body>
+</html>
