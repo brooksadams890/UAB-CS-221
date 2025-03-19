@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brooks' Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Alexander "Brooks" Adams</h1>
+            <p>Full Stack Developer | Computer Science Student</p>
+            <nav>
+                <ul>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>I'm Brooks and I am a computer science student at UAB. I like to code and learn new things.</p>
+            <ul>
+                <li>Skills: Investing, C#, ASP.NET, Java, Python, HTML, CSS, JavaScript</li>
+                <li>Hobbies: Coding, Investing, Traveling, Video Games</li>
+                <li>Interests: Backend Development, Web Development, Business Development, Animals</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul class="project-grid">
+                <li class="project-item">
+                    <h3>Portfolio Web App</h3>
+                    <p>This web app showcases my portfolio. Made with ASP.NET.</p>
+                    <a href="https://github.com/brooksadams890/PortfolioApp">View on GitHub</a>
+                </li>
+                <li class="project-item">
+                    <h3>Android App</h3>
+                    <p>An Android app built with Java.</p>
+                    <a href="https://github.com/brooksadams890/AndriodApp">View on GitHub</a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="mailto:badams6@uab.edu" method="POST" enctype="text/plain">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>Alexander Brooks Adams &copy; 2025. All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,159 @@
+body {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+    background-color: #E3F2FD ;
+    color: #2C3E50;
+    font-family: Tahoma, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* wrapper */ 
+#wrapper {
+    width: 90%;
+    max-width: 1200px;
+    background-color: #FAFAFA;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #003B46;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+
+/* h1 */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    
+}
+
+/* h2 */
+h2 {
+    font-size: 2em;
+    color: #0D47A1; /*Blue*/
+}
+
+/*h3*/
+h3 {
+    font-size: 1.5em;
+    color: #1565C0; /*Lighter Blue*/
+}
+
+/*paragraph*/
+p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+/*navigation menu*/
+
+nav {
+    text-align: center;
+    background-color: #1565C0; /* another blue */
+    padding: 15px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 15px;
+
+}
+
+nav ul li a:hover {
+    background-color: #0D47A1 /*Darker blue*/
+}
+
+/* section */
+section {
+    background-color: #F5F5F5; /* Light grey */
+    margin: 20px 0;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+/* links */
+a {
+    color: #0D47A1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* project section */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 0;
+}
+
+#projects li {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* image */
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #1565C0;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0D47A1;
+}
+
+/* footer */
+footer {
+    background-color: #0D47A1;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+}
