@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=" width=device-width, initial-scale=1.0">
+    <title>Odd or Even</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script>
+     // Ask for numerical input on the string
+     let prom = prompt("Enter a whole number: ");
+     // Convert string to number
+     let num = Number(prom); // ChatGPT helped with this line
+     //how to convert a string to a number in javascript
+//ChatGPT said:In JavaScript, you can convert a string to a number using several methods:
+//1. Number() (Preferred)
+//Converts the string to a number, returns NaN if invalid.
+
+//From this information I was able to put Number(and my varible, num) in the argument to change it to a number from a string.
+     // Uses isNaN with our number/num to see if it is an actual number
+     if (isNaN(num)) {
+        console.log("Invalid Input")
+    // Checks if num input is even using mod 
+     } else if (num % 2 === 0) {
+        console.log("Even")
+        // If it is not even and it is a number, it must be odd
+     } else {
+        console.log("Odd")
+     }
+    </script>
+</body>
+</html>
