@@ -1,0 +1,104 @@
+/* Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* Body */
+body {
+  font-family: sans-serif;
+  background: #91b7f8;
+  color: #242424;
+  padding: 1rem;
+}
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Search section */
+.search {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.search input,
+.search button {
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
+.search button {
+  background: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Results and Shelf Lists */
+.bookList,
+.shelfBookList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* Book card */
+.bCard {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 150px;
+  overflow: hidden;
+}
+.bCard img {
+  width: 100%;
+  display: block;
+}
+.bInfo {
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
+.bInfo h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Action buttons */
+.actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+.actions button {
+  flex: 1;
+  padding: 0.3rem;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+.switch {
+  background: #eee;
+}
+.add {
+  background: #a3de60;
+  color: #fff;
+}
+.remove {
+  background: #ef7979;
+  color: #fff;
+}
+
+/* Details */
+.details {
+  display: none;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+}
+.details.open {
+  display: block;
+}
+
+/* Shelf header */
+.shelfS h2 {
+  margin-bottom: 0.5rem;
+}
